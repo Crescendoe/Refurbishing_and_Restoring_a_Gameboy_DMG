@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Refurbishing and Restoring a Gameboy</header>
+        <ul>
+            <li><a href="#disclaimer">Disclaimer</a></li>
+            <li><a href="#video-resources">Video Resources</a></li>
+            <li><a href="#materials">Materials</a></li>
+            <li><a href="#sec1-1">Section 1.1: Disassembly</a></li>
+            <li><a href="#sec1-2">Section 1.2: Back Shell and Boards</a></li>
+            <li><a href="#sec1-3">Section 1.3: Front Shell and Board</a></li>
+            <li><a href="#sec2-1">Section 2.1: Cleaning the Gameboy (non electric pieces)</a></li>
+            <li><a href="#sec2-2">Section 2.2: Cleaning the Gameboy (electric parts)</a></li>
+            <li><a href="#sec3-1">Section 3.1: Refurb, Repair, and Reassembly</a></li>
+            <li><a href="#sec3-2">Section 3.2: Battery Contacts</a></li>
+            <li><a href="#sec3-3">Section 3.3: Screen & Speaker Repair</a></li>
+            <li><a href="#sources">Sources For Additional Help</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section id="disclaimer" class="main-section">
+            <h1>Disclaimer</h1>
+            <p>It is a good idea to read through this manual and diagnose the Gameboy and its problems before starting the actual repairs. By prepping this way, the time spent on this project can be cut down quite a bit. By knowing what needs to be bought and what needs to be done it is possible to gauge the time and money spent for the specific Gameboy. The time and money spent is a nice proportion. If you have the time, it is smarter to buy the cheaper supplies that are the same quality, but they will take longer to deliver from most places. If you're pressed for time, spending a little more money to get the parts and supplies you need would be the way to go. The more money you spend, the quicker this will be. The cheaper you go, the longer it will take. If you go big, the whole process can take about a week. If you pinch pennies, the process is likely to take up to a month if it’s your first time. Besides waiting on supplies, only cleaning the Gameboy will only take about an hour. If all repairs need to be done, it can last about an hour and a half to two hours. If retro-brighting is needed, it will add about three to four more hours. The amount of work put into the project is entirely up to you.</p>
+            <p>With this manual, I hope to teach how to use basic skills to take apart, clean, and fix a Gameboy handheld system. This process is something that can be applied to other simple electronics so that they can be fixed instead of just replaced. Refurbishing Gameboy systems is also a very widespread hobby with a growing community. This has been a hobby of mine for three years now and I am excited to share. The manual will show anyone interested from collectors, to people looking to save money, how to refurbish a Gameboy</p>
+        </section>
+        <section id="video-resources" class="main-section">
+            <h1>Video Resources</h1>
+            <p>There are many resources online that can help with refurbishing a Gameboy. Here are a few examples:</p>
+            <ul>
+                <li>The Retro Future on YouTube has a great detailed tutorial, one of the first videos I watched when getting into electronic repair: <a href="https://youtu.be/q_8PPujb-xI?si=30G11JY2_2Hf6XAg" target="blank">Link</a></li>
+                <li>Odd Tinkering on youtube is also really good, their videos are more of an ASMR approach so you really have to pay attention. However they go in depth about retr0-brighting and have a great set-up for it: <a href="https://youtu.be/lW9uKZE4yJ0?si=8oTUQ2N0MGyZi6e3" target="blank">Link</a></li>
+                <li>Places like; ebay, aliexpress, amazon, etsy, and ifixit are great resources to buy any of the parts you may need for this repair. There are even custom shells, better screens, and modifications that can be bought for the Gameboy</li>
+        </section>
+        <section id="materials" class="main-section">
+            <h1>Materials</h1>
+            <p>When refurbishing a gameboy, there isn’t a lot of supplies you need to do the basics.</p>
+            <ul>
+                <li>A screwdriver set (the Gameboy has tri-wing screws and phillips screws. A flathead can also come in handy. I recommend using a Y0 for the tri-wing, a PH00-1 will work for the phillips)</li>
+                <li>Isopropyl alcohol (alcohol will dry up much quicker than water and won't cause any damage when cleaning parts)</li>
+                <li>Soft bristled toothbrush and Q-tips</li>
+                <li>Gloves (these are pretty nice depending on how dirty the Gameboy is)</li>
+                <li>Tweezers (not required but makes things easier)</li>
+                <li>Soap</li>
+                <li>4 AA batteries</li>
+            </ul>
+            <p>A soldering iron might be required depending on the Gameboys condition. If the screens have lines running up and down, the connections will need to be reconnected using soldering. If the speaker is busted, a replacement will also have to be soldered on. Soldering is a process where a hot instrument applies heat to a metal with a low melting point in order to make connections on electrical equipment. The soldering iron comes to a point at the tip in order to make it more precise. The use of heat from a heat gun, hair dryer, or microwave might also be needed.</p>
+            <p>Retro-brighting might also be necessary depending on how yellow the plastic shell of the Gameboy is. Retro-brighitng is a technique coined by the refurbishing community that means bleaching yellowed plastic to renew its original color. It can be used on shoes, plastics and much more. A UV light or the sun will work great to bleach the material. Most people will use hydrogen peroxide as a sort of catalyst to make the process take a few hours instead of days. In this case the Gameboy shell would be submerged in hydrogen peroxide with a UV light shining over it for about 3-5 hours in order to restore it.</p>
+        </section>
+        <section id="sec1-1" class="main-section">
+            <h1>Disassembly</h1>           
+            <ul class="numbered">
+                <li>First, remove the battery cover off the back of the Gameboy and any batteries inside</li>
+                <li>With a tri-wing screwdriver, remove the six screws holding the casing off the back.</li>
+                <img src="images\Screenshot 2024-04-17 at 11-42-51 Technical Manual Final.png" alt="Gameboy Battery Cover">
+                <li>All screws should be kept somewhere safe since they are small. <em>All the screws are the same size so the need to sort isn’t really necessary. Just make sure the only six tri-wing screws are used to put the gameboy shell back together.</em></li>
+                <li>Take the back case off of the game boy and carefully lay it over, <em>there is a ribbon cable connecting the back to the front screen.</em></li>
+                <li>Using both hands, carefully remove the ribbon cable from its slot.<em>Make sure to pull it straight out so as to not damage it or its housing</em></li>
+            </ul>
+        </section>
+        <section id="sec1-2" class="main-section">
+            <h1>Back Shell and Board</h1>
+            <ul class="numbered">
+                <li>Grab the back piece of the Gameboy, and a Phillips screwdriver.</li>
+                <li>Remove the two screws holding the headphone jack at the bottom and remove the two screws holding the board in at the top to remove the back motherboard</li>
+                <img src="images\Screenshot 2024-04-17 at 11-43-24 Technical Manual Final.png" alt="Gameboy Motherboard">
+                <li>Carefully remove the board from its place</li>
+                <li>Make sure the power button slider is put in a safe place since it's not attached.</li>
+                <li>Again with the Philips screwdriver, remove the four screws on the heat shield and remove the heat shield.</li>
+                <img src="images\Screenshot 2024-04-17 at 11-43-36 Technical Manual Final.png" alt="Gameboy Heat Shield">
+                <li>Using a flat head screwdriver, press on the tab holding the battery contact in at the bottom to remove. <em>Depending on condition, the battery contacts might need to be replaced, but most likely just cleaned up.</em></li>
+                <img src="images\Screenshot 2024-04-17 at 11-43-47 Technical Manual Final.png" alt="Gameboy Contact Tab">
+            </ul>
+        </section>
+        <section id="sec1-3" class="main-section">
+            <h1>Front Shell and Board</h1>
+            <ul class="numbered">
+                <li>With the front piece of the Gameboy take out the ten screws holding the board in place.</li>
+                <li>Remove the board carefully, and take extra care as the speaker is removed with it</li>
+                <img src="images\Screenshot 2024-04-17 at 11-43-58 Technical Manual Final.png" alt="Gameboy Board and Speaker">
+                <li>Take out the buttons.</li>
+                <li>Separate the buttons from their rubber contacts for cleaning.</li>
+            </ul>
+        </section>
+        <section id="sec2-1" class="main-section">
+            <h1>Cleaning the Gameboy (non electric pieces)</h1>
+            <ul class="numbered">
+                <li>Prepare a small tub or bowl full of hot soapy water. <em>A bathroom sink is a good size since the Gameboy is so small.</em></li>
+                <li>Let all non electronic pieces soak for a few minutes. <em>These pieces include; the shell, battery cover, buttons, rubber contacts, battery contacts, and heat shield. Make note of any stickers on the back of the Gameboy shell, they can be removed by applying a little heat and removing with tweezers. The heat can come from a heat gun, a hair dryer, or a microwave. </em><b>Only use the microwave after battery contacts are removed.</b></li>
+                <li>With a soft brush, thoroughly clean all the parts with the soapy water and let dry completely.</li>
+                <li><em>The rubber contacts have a black connection piece on them</em>If it is shiny, use some isopropyl alcohol and a Q-tip to clean it until the shine is gone. <em>This will help the buttons to work</em></li>
+                <img src="images\Screenshot 2024-04-17 at 11-44-09 Technical Manual Final.png" alt="Gameboy Buttons">
+            </ul>
+        </section>
+        <section id="sec2-2" class="main-section">
+            <h1>Cleaning the Gameboy (electric parts)</h1>
+            <ul class="numbered">
+                <li>With a soft bristled toothbrush, dip it in isopropyl alcohol and begin to clean theback motherboard. <em>These are vital parts that hold a lot more dirt and can work great again just by cleaning.</em>
+                    <ul class="lettered">
+                        <li>Clean the ribbon housing</li>
+                        <li>The headphone jack</li>
+                        <li>The power slider</li>
+                        <li>External connecter port</li>
+                        <li>The contrast wheel</li>
+                    </ul>
+                </li>
+                <li>Moving to the front board, use the same technique with the brush</li>
+                <li>Clean the ribbon cable itself by brushing along with the pins, not across them. <em>This prevents scratching.</em></li>
+                <li>Clean the speaker.</li>
+                <li>Clean the volume wheel very well. <em>This and the speaker are the vital parts on the front board.</em></li>
+                <li>Clean the screen and dry it off to make sure no streaks remain or else they will always be there after reassembly.</li>
+            </ul>
+        </section>
+        <section id="sec3-1" class="main-section">
+            <h1>Refurb, Repair, and Reassembly</h1>
+            <ul class="numbered">
+                <li><em>If the Gameboy shell is yellowed, now would be the time to perform the retro-brighting process as mentioned above.</em> Take both shells, battery cover, and ext. connector and submerge them in hydrogen peroxide with weights or using something to stick them to whatever vessel is used to hold the peroxide.</li>
+                <li>Shine a UV light or leave in the sun until the original color comes back.</li>
+                <li><em>Begin with the back shell of the Gameboy</em>Put the heat shield back on and fasten it with the four screws.</li>
+                <li>If the battery contacts are not good see <b><a href="#sec3-2">section 3.2.</a></b> If they are good, push the metal tab back out and slide them back into place in the correct orientation. <em>There are diagrams of how the batteries go in so they can be used to determine how the battery contacts should be put in.</em></li>
+                <li>Slide the back motherboard back into place along with the power slider piece that goes on top. <em>A little plastic tab should be sticking out when in the “on” position.</em></li>
+                <li>Replace the four screws to fasten the motherboard.</li>
+                <li>In the front shell, replace the buttons along with the rubber contacts.</li>
+                <li>If the front screen is burned out, or has any vertical lines running in it, skip to <b><a href="#sec3-3">section 3.3.</a></b> If the screen is good, replace the front motherboard and fasten it with the ten screws and make sure the speaker is seated well before fastening (if the speaker is busted, see <b><a href="#sec3-3">section 3.3.</a></b></li>
+                <li>Carefully slide the ribbon cable back into its housing and make sure it is secure</li>
+                <li>Fold the ribbon into position to close the Gameboy shell and put the six tri-wing screws back in.</li>
+                <li>Put in the batteries and place the battery cover back.</li>
+                <li>To test, place a game in the slot and turn on with volume. Turn the contrast wheel until you can clearly see the Nintendo logo floating across the screen. A small ding should emit from the speaker and no lines should be breaking the picture</li>
+                <h2>Before and After:</h2>
+                <img src="images\Screenshot 2024-04-17 at 11-44-34 Technical Manual Final.png" alt="Gameboy Before and After">
+            </ul>
+        </section>
+        <section id="sec3-2" class="main-section">
+            <h1>Battery Contacts</h1>
+            <ul class="numbered">
+                <li>If the battery contacts have mild corrosion, this can usually be solved by wiping with isopropyl alcohol and cleaning well to remove.</li>
+                <li>Soaking in vinegar can also remove a lot of the corrosion to make them good again.</li>
+                <li>If the battery contacts are beyond repair, they can be found fairly cheap online. <em>Places like amazon, aliexpress, and etsy sell them.</em></li>
+                <li>After replacing or cleaning, continue in <b><a href="#sec3-1">section 3.1</a></b>.</li>
+            </ul>
+        </section>
+        <section id="sec3-3" class="main-section">
+            <h1>Screen and Speaker Repair</h1>
+            <ul class="numbered">
+                <li>If the screen is not burnt out, continue to <b><a href="#sec3-3-4">section 3.3.4.</a></b> If it is burnt out, start by peeling the front film off the screen. <em>The LCD screen itself isn’t burnt out, the polarizer film just needs to be replaced. The polarizer film is what gives the screen its contrast.</em></li>
+                <li>After peeling the film off, use isopropyl alcohol to clean up the old glue</li>
+                <li>Peel the back of the new polarizer film off and carefully place it correctly onto the dry screen. <em>To do so, plug the front motherboard into the already assembled back piece and put batteries in to turn it on. Hold the polarizer film over the screen until it shows the image how it is supposed to. If placed incorrectly, no image will appear. It is definitely worth watching the videos provided for this part.</em></li>
+                <li id="sec3-3-4"><em>With the front motherboard plugged in, any vertical lines should be visible if the connection is bad. Use a soldering iron and gently move back and forth along the rubber strip at the bottom of the screen. This will gradually heat up the metal connections to the screen and repair them. Do this until no lines remain and head back to </em><b><a href="#sec3-1">section 3.1,</a></b><em> unless the speaker needs to be replaced.</em></li>
+                <img src="images\Screenshot 2024-04-17 at 11-44-51 Technical Manual Final.png" alt="Gameboy Screen">
+                <li>To replace the speaker, hold the soldering iron to the shiny metal connecting the speaker to the motherboard at the SP1 and SP2 slots. As the metal melts, pull the wire out. <em>SP1 and SP2 are labeled very plainly on the board, don't worry about finding them.</em></li>
+                <li>Reverse the process for the new speaker by melting the metal and putting the wire into the slot. <em>Solder resolidifies very fast so the process is very easy.</em></li>
+                <li>After all repairs are made return to <b><a href="#sec3-1">section 3.1</a></b>.</li>
+            </ul>
+        </section>
+        <section id="sources" class="main-section">
+            <h1>Sources For Additional Help</h1>
+            <p>Here are some more of the obscure materials for the process:</p>
+            <ul>
+                <li>Soldering Gun: <a href="https://a.co/d/dAU6yGQ" target="blank">Link</a></li>
+                <li>Heat Gun: <a href="https://a.co/d/2VtEyxg" target="blank">Link</a></li>
+                <li>Battery Contacts: <a href="https://a.co/d/aoEYUbR" target="blank">Link</a></li>
+                <li>Speaker: <a href="https://a.co/d/8NChtIT" target="blank">Link</a></li>
+            </ul>
+            <p>With these resources, a full gameboy repair is able to be performed and hopefully lead to more than just gameboys. A fun new hobby can be started and money can be saved by using these skills on everyday electronics.</p>
+        </section>
+        <div class="footer">
+            <footer>
+                <p>Written by: Jared Samples (jjsamples85@gmail.com)</p>
+                <p>Website designed and developed by: William Wyler (Crescendoe, <a href="https://github.com/Crescendoe">https://github.com/Crescendoe</a>)</p>
+            </footer>
+        </div>
+    </main>
+</body>
+</html></section></html>
