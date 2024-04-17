@@ -1,5 +1,4 @@
 This HTML document serves as a comprehensive guide for refurbishing a Gameboy handheld system.
-Documentation Structure
 
 The guide is divided into the following sections:
 
