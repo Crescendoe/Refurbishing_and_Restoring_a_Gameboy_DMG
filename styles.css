@@ -4,6 +4,7 @@ html, body {
     background-color: #ffffff;
     font-family: 'Open Sans', Arial, sans-serif;
     line-height: 1.5;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -93,4 +94,17 @@ h1 {
     text-align: center;
     padding: 10px;
     margin-left: -30px;
+}
+
+@media screen and (max-width: 600px) {
+    #navbar {
+        width: 100%;
+        position: relative;
+        border-right: none;
+        padding-right: 0;
+    }
+    
+    #main-doc {
+        margin-left: 0;
+    }
 }
